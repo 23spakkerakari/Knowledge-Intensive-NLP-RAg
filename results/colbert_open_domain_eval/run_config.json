@@ -1,0 +1,11 @@
+{
+  "task": "open_domain_qa",
+  "dataset": "Natural Questions dev",
+  "data_path": "/content/gdrive/MyDrive/JuniorYear/CS4782/final-proj/data/nq_dev.jsonl",
+  "k": 5,
+  "max_examples": null,
+  "systems": [
+    "ColBERT+BART",
+    "DPR+BART"
+  ]
+}

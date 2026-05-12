@@ -1,0 +1,48 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+py_venv/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.claude/
+
+#OS stuff
+.DS_Store
+Thumbs.db
+
+# --- Model weights (HuggingFace shards, ckpts) ---
+# Single-file shards
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.msgpack
+*.h5
+# HuggingFace cache + shard index
+.cache/
+*.safetensors.index.json
+pytorch_model*.bin*
+model-*.safetensors
+
+*.faiss
+.ragatouille/
+data/dpr_50k.faiss
+data/small_nq_index/
+
+wikipedia/
+faiss_index/
+outputs/
+
+events.out.tfevents.*
+# Local accelerate state
+.accelerate/
+
+*.log
+*.tmp
+*.swp
