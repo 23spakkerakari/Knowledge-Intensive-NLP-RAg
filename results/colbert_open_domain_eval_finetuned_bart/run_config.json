@@ -1,0 +1,9 @@
+{
+  "task": "open_domain_qa",
+  "dataset": "Natural Questions dev",
+  "retriever": "ColBERT over data/small_nq_index/passages",
+  "generator": "BART",
+  "data_path": "/content/gdrive/MyDrive/JuniorYear/CS4782/final-proj/data/nq_dev.jsonl",
+  "k": 5,
+  "max_examples": 500
+}

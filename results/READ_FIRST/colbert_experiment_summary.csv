@@ -1,0 +1,6 @@
+Experiment,Primary Result,Secondary Result
+ColBERT strict Recall@5 on NQ,32.78%,
+"ColBERT + generic BART, K=5",0.00 EM,0.07 F1
+"ColBERT + fine-tuned NQ BART, K=5",0.22 EM,0.27 F1
+"ColBERT + adapted BART 5k, K=5",0.20 EM,0.26 F1
+"ColBERT + adapted BART 5k, K=50",0.18 EM,0.23 F1
