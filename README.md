@@ -84,3 +84,7 @@ Done as the final project for **CS 4782 (Deep Learning), Cornell University, Spr
 And of course:
 
 We 🫶 Kilian
+
+## 10. Contributors
+
+Created by: Pradhi Pakkerakari, Vansh Bherwal, Aditya Mittal
